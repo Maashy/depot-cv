@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Italic-VariableFont_wght.woff2') format('.woff2');
+    src: url('../fonts/Raleway/Raleway-VariableFont_wght.woff2') format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.container_principal {
+    width: 1160px;
+    margin: auto;
+}
