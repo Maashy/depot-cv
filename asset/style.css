@@ -17,3 +17,8 @@ body {
 h1, h2 {
     font-family: 'Lato', sans-serif;
 }
+
+.container_principal {
+    width: 1160px;
+    margin: auto;
+}
