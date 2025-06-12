@@ -22,7 +22,11 @@ h1, h2 {
 
 h2 {
     color: #17abb3;
+    border-bottom: 2px solid  rgba(227, 227, 227, 0.6);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
+
 
 .container_principal {
     width: 1160px;
@@ -123,12 +127,6 @@ main {
     gap: 16px;
 }
 
-main h2 {
-    border-bottom: 2px solid  rgba(227, 227, 227, 0.6);
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
-
 .dates {
     color: #17abb3;
 }
@@ -170,6 +168,7 @@ aside {
     flex-direction: column;
     flex: 30%;
     background-color: #f5f5f5;
+    padding: 35px;
 }
 
 .skills, .languages {
