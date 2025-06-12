@@ -20,6 +20,10 @@ h1, h2 {
     font-family: 'Lato', sans-serif;
 }
 
+h2 {
+    color: #17abb3;
+}
+
 .container_principal {
     width: 1160px;
     margin: auto;
@@ -102,8 +106,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: 3;
-    margin: 30px;
+    flex: 70%;
+    margin: 20px;
+    padding: 30px 0 30px 0;
     gap: 30px;
     font-weight: 500;
 }
@@ -124,7 +129,7 @@ main h2 {
     padding-bottom: 10px;
 }
 
-main h2, .dates {
+.dates {
     color: #17abb3;
 }
 
@@ -158,8 +163,26 @@ div[class="infos"] p {
     font-style: italic;
 }
 
+/*ASIDE*/
 
 aside {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    background-color: #f5f5f5;
 }
 
+.skills, .languages {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill_content, ul[class="languages"] li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.liste_qualités {
+    display: flex;
+    flex-direction: column;
+}
