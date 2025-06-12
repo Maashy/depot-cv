@@ -128,11 +128,15 @@ main h2, .dates {
     color: #17abb3;
 }
 
-.formation {
+.formation, .stages, .jobs {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
+}
+
+.jobs {
+    padding-bottom: 1.5em;
 }
 
 .infos {
@@ -158,3 +162,4 @@ div[class="infos"] p {
 aside {
     flex: 1;
 }
+
